@@ -1,0 +1,46 @@
+.card{
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px #00000026;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+.parent{
+    display: flex;
+    justify-content: space-between;
+}
+.Title{
+    width: 125px;
+    text-align: left;
+}
+.Value{
+    width: 125px;
+    text-align: right;
+}
+.colon{
+    padding: 0px 10px;
+}
+.cityName{
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 720px) {
+    .card {
+        width: 80%;
+        max-width: 375px;
+    }
+  }
+@media only screen and (min-width: 720px) {
+    .card {
+        width: 40%;
+        max-width: 375px;
+    }
+  }
+@media only screen and (min-width: 1100px) {
+    .card {
+        width: 25%;
+    }
+  }
